@@ -1,0 +1,9 @@
+.logContainer .weekLog
+{
+    font-weight: bold;
+    margin-top: 25px;
+}
+.logContainer .weekLog .detail
+{
+    font-weight: normal;
+}
