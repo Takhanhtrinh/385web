@@ -18,7 +18,6 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <title>Castle Craft</title>
-
 </head>
 
 <body>
@@ -50,7 +49,8 @@
       <div class="detail">
         <ul>
           <li>Create website</li>
-          <li>Brainstorm game idea
+          <li>
+            Brainstorm game idea
             <ul>
               <li>Theme: </li>
             </ul>
@@ -69,55 +69,108 @@
         </div>
         <div class="detail">
           <ul>
-          <li>
-                  <a href = "https://takhanhtrinh.github.io/castleCraft/">https://takhanhtrinh.github.io/castleCraft/</a>
-          </li>
+            <li>
+              <a href="https://takhanhtrinh.github.io/castleCraft/">https://takhanhtrinh.github.io/castleCraft/</a>
+            </li>
             <li>
               Completed:
             </li>
             <ul>
               <li>
-                Generate the resources around the map
+                Generated the resources around the map
               </li>
               <li>
-                Finish implementing object depth(z-depth or z-buffer)
+                Finished implementing object depth(z-depth or z-buffer)
               </li>
               <li>
-                Finish implementing sprite animation
+                Finished implementing sprite animation
               </li>
               <li>
-                Crafting engine
+                Implemented Crafting engine
               </li>
               <li>
-                Inventory (after character pick up an item)
+                Implemented Inventory (after character pick up an item)
               </li>
               <li>
-                Cut down tree
+                Implemented Cut down tree
               </li>
               <li>
-                Mine rock
+                Implemented Mine rock
               </li>
               <li>
-                Collect the resources
+                Implemented Collect the resources
               </li>
             </ul>
-            <li>Working On
-                <ul>
-                  <li>Placing the tower with mouse</li>
-                  <li>Automation enemy movement and attack (AI)</li>
-                  <li>Automtion tower to defenese the castle from enemy</li>
-                  <li>Improve graphics</li>
-                  <li>Add enemies</li>
-                  <li>Making better map</li>
-                </ul>
+            <li>
+              Working On
+              <ul>
+                <li>Placed the tower with mouse</li>
+                <li>Automated enemy movement and attack (AI)</li>
+                <li>Automated tower to defenese the castle from enemy</li>
+                <li>Improved graphics</li>
+                <li>Added enemies</li>
+                <li>Made better map</li>
+              </ul>
             </li>
-
           </ul>
         </div>
       </div>
-
+      <div class="weekLog">
+        <div class="weekNum">Week 3</div>
+        <div class="detail">
+          <ul>
+            <li>Completed</li>
+            <ul>
+              <li>Placed the tower with mouse</li>
+              <li>Automated enemy movement and attack (AI)</li>
+              <li>Automated tower to defenese the castle from enemy</li>
+              <li>Added enemies</li>
+              <li>Made map bigger</li>
+              <li>Added Weapon slot</li>
+              <li>Implemented LevelManager</li>
+              <li>Made 2 different levels</li>
+              <li>Made AlphaTest</li>
+            </ul>
+            <li>Current Bugs</li>
+            <ul>
+              <li>AI objects (tower, red enemy) have 2 collider2d. One for Collision and another one is for check onTriggerEnter2D to find enemy to attack. Therefore when AI is close to a tree and a rock. onMouseDown doesn't get call  </li>
+            </ul>
+            <li>Working on</li>
+            <ul>
+               <li>Implement a boat that able to attack character and tower at long range</li>  
+               <li>Add more levels</li>
+            </ul>
+          </ul>
+        </div>
+        <div class ="weekLog">
+          <div class = "weekNum">Week 4</div>
+          <div class ="detail">
+            <ul>
+              <li>Completed</li>
+              <ul>
+                <li>Added Sound Effect</li>
+                <li>Implemented a boat that able to attack the tower at long range</li>
+                <li>Added wave number</li>
+                <li>Fixed moving to next wave logic. Player has to kill all the enemy to go to next level</li>
+                <li>Implemented swapping weapons by click 1,2,3,4 buttons</li>
+              </ul>
+              <li>Current Bugs</li>
+              <ul>
+                <li>AI objects (tower, red enemy) have 2 collider2d. One for Collision and another one is for check onTriggerEnter2D to find enemy to attack. Therefore when AI is close to a tree and a rock. onMouseDown doesn't get call (important)</li>
+                <li>Boat is generated inside the island</li>
+                <li>Long range attack boat haven't added to the game because the collider2D conflict hasn't fixed</li>
+              </ul>
+              <li>Working on</li>
+              <ul>
+                <li>Fxing Collider2d conflicts</li>
+                <li>Create help menu for player</li>
+                <li>Improve resources generation for each level</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-
   </div>
 </body>
 
