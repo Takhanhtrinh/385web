@@ -1,54 +1,232 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <link rel="stylesheet" href="style.css">
-            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <title>Castle Craft</title>
 
-    </head>
-    <body>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">Castle Craft</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="developmentLogs.html">Development Logs</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <title>Castle Craft</title>
 
-                  <div class ="container-fluid">
-                  Digital prototype
-                  <br>
-                  <a href = "https://takhanhtrinh.github.io/castleCraft/">https://takhanhtrinh.github.io/castleCraft/</a>
-                  <br>
-                  Alpha Test 
-                  <br>
-                  <a href = "https://takhanhtrinh.github.io/alphaTest/index.html">https://takhanhtrinh.github.io/alphaTest/index.html</a>
-                  <br>
-                  Beta Test 
-                  <br>
-                  <a href = "https://takhanhtrinh.github.io/alphaTest2/"> https://takhanhtrinh.github.io/alphaTest2/</a>
-                  <br>
-                  Final 
-                  <br>
-                  <a href = "https://takhanhtrinh.github.io/castleCraftFinal/index.html"> https://takhanhtrinh.github.io/castleCraftFinal/index.html </a>
+</head>
 
-                  </div>
-    </body>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark navbar-custom">
+    <a class="navbar-brand" href="index.html">Castle Craft</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="developmentLogs.html">Development Logs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://takhanhtrinh.github.io/castleCraftFinal/index.html">Play</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid mainImage">
+    <div class="container">
+      <h1 class="display-3">Castle Craft</h1>
+      <p class="lead">Are you ready to protect the castle? </p>
+      <p class="lead">Castle craft can play on your favorite web browser</p>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="myTitle">Description</div>
+    <div class="paragraph">
+      Castle Craft is a RPG top down fantansy game. Your job is protecting the castle from the enemies. To protect the
+      castle,
+      you might need to collect the resources and craft weapons from the collected resources to fight the enemy. There
+      are 5 different waves,
+      each waves will have different number of enemies and different types of enemies. Remember, the final boss at the
+      last wave is very strong, you should consider
+      build towers to able to defeat him. Otherwise, you will lose.
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="myTitle">Trailer</div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Js676yuhY-w" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="container-fluid">
+    <div class="myTitle">Game Features</div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img src="./assets/inventory.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <div class="paragraph">Inventory to store the resources</div>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img src="./assets/tower.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <div class="paragraph">Build tower to defend the enemy</div>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img src="./assets/crafting.png" alt="Nature" style="width:100%">
+          <div class="caption">
+            <div class="paragraph">Crafting engine resources to craft weapons</div>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="./assets/finalBoss.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <div class="paragraph">Strong final boss</div>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img src="./assets/resourceEater.png" alt="Lights" style="width:52%">
+          <div class="caption">
+            <div class="paragraph">Resources eater enemy try to eat your resources</div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="myTitle">Playtest reports</div>
+    <div class="paragraph">The flollowing reports are from feedback from users about the game</div>
+  </div>
+  <div class="container-fluid">
+    <h4>Alpha Playtest</h4>
+    <a
+      href="https://takhanhtrinh.github.io/alphaTest/index.html">https://takhanhtrinh.github.io/alphaTest/index.html</a>
+    <ul>
+      <li style="font-size: 20px;">
+        Good
+        <ul>
+          <li>Crafting engine</li>
+          <li>Graphic</li>
+          <li>Inventory</li>
+        </ul>
+      </li>
+      <li style="font-size: 20px;">
+        Bad
+        <ul>
+          <li>Make the map bigger</li>
+          <li>Why we need to click on the tree to cut the tree? (clicking mechanic doesn't work)</li>
+          <li>Choose the the wepon by using keyboard, not by clicking</li>
+          <li>Need ingredients menu to craft the weapon</li>
+          <li>Throw spears look weird</li>
+          <li>Improve hit box</li>
+        </ul>
+      </li>
+      <li style="font-size: 20px;">
+        Decision
+        <ul>
+          <li>Change clicking mechanics to something better</li>
+          <li>Make the map bigger</li>
+          <li>Add crafting menu for user</li>
+          <li>Change throwing spear angle</li>
+          <li>Improve hit box</li>
+        </ul>
+      </li>
+    </ul>
+    <h4>Beta playtest</h4>
+    <a href="https://takhanhtrinh.github.io/alphaTest2/"> https://takhanhtrinh.github.io/alphaTest2/</a>
+    <ul>
+      <li style="font-size: 20px;">
+        Good
+        <ul>
+          <li>Nice backgound music and sound effect</li>
+          <li>Look like the game is completed</li>
+          <li>Improve UI</li>
+          <li>Pause the game when use open the invetory</li>
+          <li>Map is bigger</li>
+          <li>Differernt emeny waves</li>
+          <li>Character animation when he fights</li>
+          <li>Like new enemies</li>
+        </ul>
+      </li>
+      <li style="font-size: 20px;">
+        Bad
+        <ul>
+          <li>Change the speed of the game to lower</li>
+          <li>Need to improve on the hit box of the game</li>
+          <li>Enemy get stuck</li>
+          <li>Change crafting helper to top left corner</li>
+          <li>Need to balance the resources</li>
+          <li>Lower resources'health</li>
+          <li>Add final boss at the end</li>
+        </ul>
+      </li>
+      <li style="font-size: 20px;">
+        Decision
+        <ul>
+          <li>Change the spawn time for each wave</li>
+          <li>Improve UI</li>
+          <li>Change resources health</li>
+          <li>Add final boss at the end</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="container-fluid">
+    <div class="myTitle">Team Reflection</div>
+    <div class="paragraph">
+      In the beginning, our team has 2 people, but after 2 weeks the team splits because my teammate doesn't work on the
+      project and always delay my work. To make the game deliver on time with features planned, I spend a lot of time to
+      work on my own. Working on the project by myself, it doesn't make myself depressed, instead, it elevates my
+      passion for game development. You able to see my game improments through playtests and final delivery.
+    </div>
+    <div class="myTitle">Future Improments</div>
+    <div class="paragraph">
+      If I have 2 more weeks to work on this game, the first thing I will make is that path finding for the enemies,
+      because right now the enemies move base on the angle between them and the targets. When the enemies walk by the resources, it gets stuck.
+      Second, I will improve the weapon animations when the character fights. Lastly, It will perfect if I extend more weapons in crafting engine.
+    </div>
+  </div>
+  <div class ="container-fluid">
+    <div class ="myTitle">Postmortem Slides</div>
+    <a href = "https://docs.google.com/presentation/d/14a0gZM0EzNYOddtfbpr75Owy5XlTxtEqmb8yiIcfMRk/edit#slide=id.p"> Link to postmortem</a>
+  </div>
+  <div class ="container-fluid">
+    <div class ="myTitle">Final Presentation Slides</div>
+    <a href = "https://docs.google.com/presentation/d/1rtsXkDgsn7Fv5QkFkPgKz3aNNz3nARLCT7aM6Thd9U0/edit?usp=sharing"> Link to final presentation</a>
+  </div>
+  <div class ="myFooter">
+    <div class ="lead">©2019 Castle Craft</div>
+  </div>
+</body>
+
 </html>
